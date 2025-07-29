@@ -1,0 +1,43 @@
+# Snakefile artifacts
+.snakemake/
+*.log
+*.html
+*.png
+*.pdf
+*.svg
+*.tmp
+
+# Conda envs
+.envs/
+*.yaml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode & Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# Large intermediate files
+*.bam
+*.sam
+*.vcf
+*.vcf.gz
+*.fai
+*.csi
+*.bai
+*.fasta
+*.fa
+*.fastq
+*.fastq.gz
+
+# custom
+backup
+input
+simulated
+tools
+reads
+output
+alignment
