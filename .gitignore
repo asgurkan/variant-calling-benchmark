@@ -41,3 +41,6 @@ tools
 reads
 output
 alignment
+benchmark
+variants
+medaka_models.txt
